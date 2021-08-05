@@ -23,6 +23,7 @@ public class EmployeeController {
 	}
 	@RequestMapping(value="/addEmployee")
 	public String addEmployee() {
+		System.out.println("Hey this is  added");
 		return "form";
 	}
 	@RequestMapping(value="/getEmployee")
