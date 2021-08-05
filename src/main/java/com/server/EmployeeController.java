@@ -31,6 +31,7 @@ public class EmployeeController {
 		employee1.setId(employee.getId());
 		employee1.setName(employee.getName());
 		employee1.setSalary(employee.getSalary());
+		System.out.println("You are updating from console");
 	   return "current";
 	}
 	@GetMapping(value="/readEmployee", produces= {"application/json"})
